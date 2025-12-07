@@ -1,0 +1,13 @@
+"""
+Calculate simple interest
+Formula
+SI = (P*R*T)/100
+P: Principal ammount
+R: Rate of interest
+T: Time duration
+"""
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate : "))
+time = float(input("Enter the time : "))
+si =(principal*rate*time)/100
+print("Simple interest is", si)
